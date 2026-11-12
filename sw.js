@@ -1,8 +1,8 @@
 // Service worker: keeps the app and the city map on the phone so everything works with no signal.
 // The build (see vite.config.ts) fills in VERSION, MAP and PRECACHE.
-const VERSION = "c8047e6bd9a9";
+const VERSION = "df371ae17340";
 const MAP = "nyc-v1.pmtiles"; // file name of the city map, e.g. nyc-v1.pmtiles
-const PRECACHE = ["./","assets/index-CA82sdec.js","assets/index-Q2-MrwZ3.css","data/board.geojson","data/boroughs.geojson","data/coastline.geojson","data/landmass.geojson","data/places.json","data/station-landmass.json","data/stations.json","data/water-dist.bin","data/water-dist.json","data/water.json","data/zones.geojson","fonts/Noto Sans Italic/0-255.pbf","fonts/Noto Sans Italic/256-511.pbf","fonts/Noto Sans Italic/8192-8447.pbf","fonts/Noto Sans Medium/0-255.pbf","fonts/Noto Sans Medium/256-511.pbf","fonts/Noto Sans Medium/8192-8447.pbf","fonts/Noto Sans Regular/0-255.pbf","fonts/Noto Sans Regular/256-511.pbf","fonts/Noto Sans Regular/8192-8447.pbf","icons/icon-180.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest"]; // every built file except the map, relative to this file
+const PRECACHE = ["./","assets/index-Ce9o7242.js","assets/index-Q2-MrwZ3.css","data/board.geojson","data/boroughs.geojson","data/coastline.geojson","data/landmass.geojson","data/places.json","data/station-landmass.json","data/stations.json","data/water-dist.bin","data/water-dist.json","data/water.json","data/zones.geojson","fonts/Noto Sans Italic/0-255.pbf","fonts/Noto Sans Italic/256-511.pbf","fonts/Noto Sans Italic/8192-8447.pbf","fonts/Noto Sans Medium/0-255.pbf","fonts/Noto Sans Medium/256-511.pbf","fonts/Noto Sans Medium/8192-8447.pbf","fonts/Noto Sans Regular/0-255.pbf","fonts/Noto Sans Regular/256-511.pbf","fonts/Noto Sans Regular/8192-8447.pbf","icons/icon-180.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","index.html","manifest.webmanifest"]; // every built file except the map, relative to this file
 
 const SHELL = `shell-${VERSION}`;
 const MAP_CACHE = `map-${MAP}`;
