@@ -1,0 +1,16 @@
+{
+  "name": "NYC Hide & Seek",
+  "short_name": "Hide & Seek",
+  "description": "Plan and track Jet Lag-style Hide & Seek across New York City.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#14532d",
+  "theme_color": "#14532d",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
